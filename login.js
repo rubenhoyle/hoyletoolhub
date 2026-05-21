@@ -47,7 +47,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
         loginBtn.disabled = true;
         
         setTimeout(() => {
-            window.location.href = '../main/shop.html';
+            window.location.href = '../login/shop.html';
         }, 1000);
     } else {
         showError('usernameError', 'Invalid username or password');
